@@ -22,13 +22,17 @@ echo "<br><br>";
 //Troisieme ligne
 
 $colors = array("red", "green", "blue", "yellow");
-echo sort($colors);
+sort($colors);
+print_r($colors);
+rsort($colors);
+print_r($colors);
 
-
+echo "<br><br>";
 // Quatrieme ligne
 
 $age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
-;
+krsort($age);
+print_r($age);
 
 
 
